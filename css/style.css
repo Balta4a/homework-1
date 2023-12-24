@@ -12,23 +12,14 @@ ul {
  list-style: none;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    overflow: hidden;
-}
+
 
 .header-logo-new {
         color: var(--IRIS, #4D5AE5);
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16px;
+        line-height: 1.17;
         /* 116.667% */
         letter-spacing: 0.03em;
         text-transform: uppercase;
@@ -36,16 +27,17 @@ ul {
 
 .header-logo { 
             color: var(--NAVY-BLUE, #2E2F42);
-            font-size: 18px;
+            font-family: "Raleway", sans-serif;
+             font-size: 18px;
             font-weight: 700;
-            line-height: 1.16px;
+            line-height: 1.17;
             /* 116.667% */
             letter-spacing: 0.03em;
             text-transform: uppercase;
 
 }
-.header-menu-item:hover {
-    color:chocolate;
+.header-menu-item:hover,:focus {
+    color:#404bbf;
 }
 
 .header-menu-item {
@@ -53,7 +45,7 @@ ul {
         /* Body Medium */
         font-size: 16px;
         font-weight: 500;
-        line-height: 1.5px;
+        line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
 }
@@ -62,7 +54,7 @@ ul {
         /* Body */
         font-size: 16px;
         font-weight: 400;
-        line-height: 1.5px;
+        line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
 }
@@ -72,7 +64,7 @@ ul {
         /* Body */
         font-size: 16px;
         font-weight: 400;
-        line-height: 1.5px;
+        line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
 }
