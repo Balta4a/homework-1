@@ -87,6 +87,12 @@ ul {
         letter-spacing: 0.02em;
 }
 
+.hero-order-btn{
+    background-color: #4D5AE5;
+}
+.hero-order-btn:hover,:focus {
+    background-color: #404BBF;
+}
 .hero-order-btn {
         color: var(--WHITE, #FFF);
         font-family: inherit;
@@ -147,7 +153,9 @@ ul {
     text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF;
+}
 
 .team-item {}
 
@@ -176,6 +184,26 @@ ul {
 
 /** ------------------------------ */
 
+.portfolio-title {
+        color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        /* Header 2 */
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        /* 111.111% */
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+.project-card-text {
+    color: var(--SLATE, #434455);
+        /* Body */
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
+}
 /**------------FOOTER--------------*/
 
 
