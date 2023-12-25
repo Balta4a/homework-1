@@ -196,7 +196,7 @@ ul {
 
 .project-card-title {
         color: var(--NAVY-BLUE, #2E2F42);
-        text-align: center;
+        text-align: left;
         /* Header 2 */
         font-size: 20px;
         font-weight: 500;
@@ -207,6 +207,7 @@ ul {
 }
 .project-card-text {
     color: var(--SLATE, #434455);
+    text-align: left;
         /* Body */
         font-size: 16px;
         font-weight: 400;
