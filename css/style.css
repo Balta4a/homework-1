@@ -12,10 +12,12 @@ ul {
  list-style: none;
 }
 
-
+.header-black-logo {
+    color: #2e2f42;
+}
 
 .header-logo-new {
-        color: var(--NAVY-BLUE, #2e2f42);
+        color: var(--NAVY-BLUE, #2e2f42;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -36,7 +38,8 @@ ul {
             text-transform: uppercase;
 
 }
-.header-menu-item:hover:focus {
+
+.header-menu-item:hover {
     color:#404bbf;
 }
 .header-link{
