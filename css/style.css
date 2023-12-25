@@ -40,6 +40,11 @@ ul {
 .header-menu-item:hover {
     color:#404bbf;
 }
+
+.header-menu-item:focus {
+    color: #404bbf;
+}
+
 .header-link{
     font-style: normal;
 }
@@ -53,7 +58,7 @@ ul {
         /* 150% */
         letter-spacing: 0.02em;
 }
-.header-mail {
+.header-link-mail {
         color: var(--SLATE, #434455);
         /* Body */
         font-size: 16px;
@@ -70,7 +75,7 @@ ul {
 .header-link-mail:focus {
     color: #404bbf;
 }
-.header-tel {
+.header-link-tel {
         color: var(--SLATE, #434455);
         /* Body */
         font-size: 16px;
