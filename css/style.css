@@ -11,7 +11,9 @@ a {
 ul {
  list-style: none;
 }
-
+.header-black-logo {
+    color: #2e2f42;
+}
 
 .header-logo-new {
         color: var(--NAVY-BLUE, #2e2f42);
@@ -35,7 +37,7 @@ ul {
             text-transform: uppercase;
 
 }
-.header-menu-item:hover:focus {
+.header-menu-item:hover {
     color:#404bbf;
 }
 .header-link{
@@ -62,6 +64,10 @@ ul {
 }
 
 .header-link-mail:hover {
+    color: #404bbf;
+}
+
+.header-link-mail:focus {
     color: #404bbf;
 }
 .header-tel {
