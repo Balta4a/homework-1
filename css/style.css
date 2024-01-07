@@ -197,7 +197,9 @@ ul {
     gap: 24px;
 }
 
-.features-item {}
+.features-item {
+    width: calc((100% - 72px) / 4);
+}
 
 .features-subtitle {
         color: var(--NAVY-BLUE, #2E2F42);
