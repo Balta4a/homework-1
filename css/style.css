@@ -217,6 +217,8 @@ ul {
 
 .team {
     background: var(--CLOUD, #F4F4FD);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -249,6 +251,10 @@ ul {
         background: var(--WHITE, #FFF);
 
 }
+.team-name {
+    padding-top: 32px;
+    padding-bottom: 32px;
+} 
 
 .team-img {
     margin: 0 auto;
@@ -258,7 +264,7 @@ ul {
 
 .team-subtitle-main {
         color: var(--NAVY-BLUE, #2E2F42);
-        text-align: left;
+        text-align: center;
         /* Header 3 */
         font-size: 20px;
         font-weight: 500;
@@ -266,12 +272,13 @@ ul {
         /* 120% */
         letter-spacing: 0.02em;
         padding-bottom: 8px;
+        margin-bottom: 8px;
             
 }
 
 .team-subtitle {
     color: var(--SLATE, #434455);
-        text-align: left;
+        text-align: center;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
