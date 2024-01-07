@@ -248,6 +248,7 @@ ul {
 .team-item {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
         background: var(--WHITE, #FFF);
 
 }
@@ -289,6 +290,14 @@ ul {
 }
 
 /** ------------------------------ */
+
+.portfolio {
+    
+}
+.container-first {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .portfolio-list {
     display: flex;
